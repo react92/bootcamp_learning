@@ -8,3 +8,10 @@ var luca = {
     state: 'Italia',
     province: 'Torino'
 };
+
+
+
+var testToChangeAttribute = luca.name;
+luca.name = 'Simone';
+console.log(testToChangeAttribute);
+console.log(luca.name);
